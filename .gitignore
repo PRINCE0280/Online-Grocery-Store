@@ -1,0 +1,44 @@
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / local config
+.env
+config.php
+
+# Logs
+*.log
+debug.log
+
+# Uploaded/media
+uploaded_img/
+images - Copy/
+
+# Vendor deps (commit composer.json instead if present)
+vendor/
+
+# One-off tools and local scripts
+tools/
+
+# Test/demo/check utilities (keep out of repo)
+create_demo_notifications.php
+create_test_notifications.php
+setup_test_session.php
+
+test_*.php
+*_test*.php
+
+debug_*.php
+
+tools/check_db_email.php
+
+# Database dumps and temp
+*.sql
+*.sql.gz
+*.bak
+
+# Node and package manager folders if any
+node_modules/
